@@ -82,6 +82,7 @@ class Forms extends Component {
               <input
                 className="first"
                 type="text"
+                name="first_Name"
                 value={this.state.firstName}
                 onChange={this.onChangeFirstName}
               />
@@ -90,6 +91,7 @@ class Forms extends Component {
               <input
                 className="last"
                 type="text"
+                name="last_Name"
                 value={this.state.lastName}
                 onChange={this.onChangeLastName}
               />
