@@ -58,7 +58,7 @@ class Forms extends Component {
         <div className="Forms">
           <p>Because we can...</p>
           <p>add and/or edit your first and last name! </p>
-          <div class="flex-container">
+          <div className="flex-container">
             <div>
               <p className="first">{this.state.firstName}</p>
             </div>
